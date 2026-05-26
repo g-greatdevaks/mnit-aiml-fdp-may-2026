@@ -1,0 +1,21 @@
+# Exclude git references
+.git/
+.gitignore
+
+# Exclude virtual environments
+venv/
+env/
+.venv/
+
+# Exclude compiled Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude Jupyter Notebook cache data
+.ipynb_checkpoints/
+
+# Exclude local emission tracking logs
+codecarbon.geodata/
+emissions.csv

@@ -1,0 +1,27 @@
+# Python Virtual Environments
+venv/
+env/
+.venv/
+
+# Compiled Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints and caches
+.ipynb_checkpoints/
+.jovian/
+
+# CodeCarbon data logging outputs
+codecarbon.geodata/
+emissions.csv
+
+# Local environment variables and secrets
+.env
+.env.local
+
+# Operating System and IDE files
+.DS_Store
+.vscode/
+.idea/

@@ -180,6 +180,12 @@ python verify_setup.py
 * **Operational Health Probes**: Setting up liveness and readiness endpoint checks, monitoring downstream API reachability (Ollama and OpenAI), database availability, and chat history memory leakage.
 * **Data Observability and RAG Lineage**: Tracking data lineage from source documents (`manual.pdf` -> chunks), monitoring retrieval context freshness and staleness, context relevance, and groundedness metrics.
 
+### Module 6: Sandbox Isolation, Safety Guardrails, and Egress Controls ([04_sandbox_isolation_safety_guardrails.ipynb](notebooks/04_sandbox_isolation_safety_guardrails.ipynb)) ([OWASP LLM Top 10 Mapping](https://owasp.org/www-project-top-10-for-large-language-model-applications/))
+* **Hands-on**: Spawning process-isolated sandboxes with `multiprocessing` and CPU/RAM limits (`resource.setrlimit`).
+* **Telemetry**: Injecting resource usage limits and elapsed execution times into OpenTelemetry spans.
+* **Safety Guardrails**: Configuring pre-prompt input validation and post-generation output scanners.
+* **Data Loss Prevention (DLP)**: Redacting credit cards, emails, and API keys from prompts and agent log streams, incorporating Google Cloud Sensitive Data Protection and Microsoft Presidio design strategies.
+
 ---
 
 ## 🎙️ Speaker
